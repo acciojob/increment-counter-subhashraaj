@@ -1,10 +1,10 @@
 let counter = 0;
-const ctr = document.querySelector("#ctr");
-const increamentBtn = document.querySelector("#increamentBtn");
+const ctr = document.querySelector("#counter");
+const incrementBtn = document.querySelector("#incrementBtn");
 
-increamentBtn.addEventListener("click",()=>{
+incrementBtn.addEventListener("click",()=>{
 	alert(counter);
-	counter++;
-	ctr.innerText = `${counter}`;
+	counter ++;
+	ctr.innerText= `${counter}`;
 	
 });
